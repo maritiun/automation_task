@@ -1,1 +1,6 @@
-# automation_task
+
+1. Создать виртуальное окружение
+2. Активировать окружение
+2. Установить все пакеты ```pip3 install -r requirements.txt```
+3. Запустить тесты ```pytest -s -v --alluredir=report``` с параметром `-n=X` можно запустить тесты в X потоков
+4. Сгенерировать allure отчет ```allure serve report```
